@@ -43,7 +43,7 @@ resource "azurerm_app_service" "webapp" {
      linux_fx_version = "PYTHON|3.7"                                        
    }
   source_control {
-    repo_url           = "https://github.com/Azure-Samples/python-docs-hello-world"
+    repo_url           = "https://github.com/NathanRullier/LOG8415/tree/main/webapp"
     branch             = "master"
     manual_integration = true
     use_mercurial      = false
