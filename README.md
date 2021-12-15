@@ -10,7 +10,7 @@ terraform init
 terraform apply
 ```
 
-## Terraform
+## Azure App Service
 
 ### Create VM:
 ```shell
