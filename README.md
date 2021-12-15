@@ -1,7 +1,20 @@
-LOG8415
+# Final project for cloud
 
-steps :
-az login
+## Terraform
+
+### Create VM:
+```shell
 cd terraform
+az login
 terraform init
-terraform
+terraform apply
+```
+
+## Terraform
+
+### Create VM:
+```shell
+cd webapp
+az login
+az webapp up --sku B1 --name projet-final-cloud
+```
