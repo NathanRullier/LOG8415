@@ -9,7 +9,7 @@ app = Flask(__name__)
 def hello():
     return ""
 
-@app.route("/test", methods=["POST"])
+@app.route("/sound", methods=["POST"])
 def test():
     return _test(request.form['sound'])
 

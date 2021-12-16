@@ -1,7 +1,7 @@
 import requests
 import base64
 
-url = 'https://cloudprojetfinal.azurewebsites.net/test'
+url = 'https://cloudprojetfinal.azurewebsites.net/sound'
 x = requests.get(url)
 encode_string = base64.b64encode(open("sound.wav", "rb").read())
 # with open('sound.wav', 'rb') as f:
